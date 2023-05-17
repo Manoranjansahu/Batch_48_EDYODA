@@ -16,3 +16,4 @@ db pod delete
 -------------
 (1) IP address Changed.
 (2) The DB data and the previous voting percentage deleted.
+(3) The number of voter set to zero.
