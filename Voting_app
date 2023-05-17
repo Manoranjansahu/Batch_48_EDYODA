@@ -1,1 +1,18 @@
-Voting App Assignment 
+VOTING APP ASSIGNMENT
+
+vote pod delete
+---------------
+(1) IP address changed.
+(2) DB data remains same.
+(3) After delete the pod the new pod created and the logs are replaced by new logs.
+
+worker pod delete
+-----------------
+(1) IP address changed.
+(2) DB data remains unchange.
+(3) The request from the user (browser id) remains same in the logs.  
+
+db pod delete
+-------------
+(1) IP address Changed.
+(2) The DB data and the previous voting percentage deleted.
